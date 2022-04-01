@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Metal Gear Solid">
+    <meta name="keywords" content="Metal Gear Solid">
+    <meta name="author" content="Falco Vuijk">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/winkelpagina-style.css">
+    <script src="js/navbar.js"></script>
+    <script src="js/main.js"></script>
+    <title>MetalGear.Site</title>
+  </head>
+
+<body>
+
+  <header id="header">
+     <div class="background">
+      <img class="logo" src="images/logo/Metalgearsitelogo.png" alt="logo van pocos">
+     </div>
+
+     <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">Home</a>
+          <a href="geschiedenis.html">Geschiedenis</a>
+          <a href="Winkelpagina.html">Winkelpagina</a>
+        </div>
+      </div>
+  
+      <div id="hamburger-menu-button">
+      <span onclick="openNav()">&#9776; </span>
+      </div>
+
+    <nav id="navbar">
+      <ul>
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="Geschiedenis.html">Geschiedenis</a> </li>
+        <li> <a href="Winkelpagina.html">Winkelpagina</a> </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="winkelpagina-main-section">
+    <h1>Metal Gear Store</h1>
+    <div class="chevron"><a href="#recent-verschenen" class="button-winkelpagina">lees meer</a></div>
+  </section>
+
+  
+  <div class="filterwrapper">
+    <div class="filterContainer">
+        <button id="Games" class="filterButton">Games</button>
+        <button id="Boeken" class="filterButton">Boeken</button>
+        <button id="Merchandise" class="filterButton">Merchandise</button>
+        <button id="favorieten" class="filterButton">Favorieten</button>
+    </div>
+</div>
+
+<main>
+
+
+    <h3> <strong> ㅤ</strong> </h3> 
+    <h4> <strong> Games</strong> </h4> 
+    <h3> <strong> ㅤ</strong> </h3>
+    
+   <figure class="kaart" data-game-type="Games">
+      <img src="images/Games/mgs1-cover.jpg" alt="Foto van Product"> 
+      <h3> <strong> Metal Gear Solid 1 </strong> </h3>
+      <h3> <strong>52,99</strong> <button class="FavorietKnop" id="js--favButton1">🤍</button> <button class="winkelwagen"><i class="fad fa-cart-arrow-down"></i></button></h3>   
+   </figure>
+
+   <figure class="kaart" data-game-type="Games">
+      <img src="images/Games/mgs2-cover.jpg" alt="Foto van Product"> 
+      <h3> <strong> Metal Gear Solid 2 </strong> </h3>
+      <h3> <strong>10,99</strong> <button class="FavorietKnop" id="js--favButton2">🤍</button> <button class="winkelwagen"><i class="fad fa-cart-arrow-down"></i></button></h3>   
+   </figure>
+
+   <figure class="kaart" data-game-type="Games">
+      <img src="images/Games/mgs3-cover.jpg" alt="Foto van Product"> 
+      <h3> <strong> Metal Gear Solid 3 </strong> </h3>
+      <h3> <strong>9,99</strong> <button class="FavorietKnop" id="js--favButton3">🤍</button> <button class="winkelwagen"><i class="fad fa-cart-arrow-down"></i></button></h3>   
+   </figure>
+
+   <figure class="kaart" data-game-type="Games">
+    <img src="images/Games/mgs4-cover.jpg" alt="Foto van Product"> 
+    <h3> <strong> Metal Gear Solid 4 </strong> </h3>
+    <h3> <strong>12,99</strong> <button class="FavorietKnop" id="js--favButton4">🤍</button> <button class="winkelwagen"><i class="fad fa-cart-arrow-down"></i></button></h3>   
+ </figure>
+
+ <figure class="kaart" data-game-type="Games">
+    <img src="images/Games/mgs5.1-cover.jpg" alt="Foto van Product"> 
+    <h3> <strong> Metal Gear Solid 5: GZ </strong> </h3>
+    <h3> <strong>19,99</strong> <button class="FavorietKnop" id="js--favButton5">🤍</button> <button class="winkelwagen"><i class="fad fa-cart-arrow-down"></i></button></h3>   
+ </figure>
+
+ <figure class="kaart" data-game-type="Games">
+    <img src="images/Games/mgs5.2-cover.png" alt="Foto van Product"> 
+    <h3> <strong> Metal Gear Solid 5: TPP </strong> </h3>
+    <h3> <strong>54,99</strong> <button class="FavorietKnop" id="js--favButton6">🤍</button> <button class="winkelwagen"><i class="fad fa-cart-arrow-down"></i></button></h3>   
+ </figure>
+   
+
+   <h3> <strong> ㅤ</strong> </h3> 
+   <h4> <strong> Boeken</strong> </h4> 
+   <h3> <strong> ㅤ</strong> </h3>
+
+
+   <figure class="kaart" data-game-type="Boeken">
+    <img src="images/Games/artwork-cover.jpg" alt="Foto van Product"> 
+    <h3> <strong> The Artwork of MGS </strong> </h3>
+    <h3> <strong>59,99</strong> <button class="FavorietKnop" id="js--favButton7">🤍</button> <button class="winkelwagen"><i class="fad fa-cart-arrow-down"></i></button></h3> 
+    </figure>
+   <figure class="kaart" data-game-type="Boeken">
+    <img src="images/Games/mgs2guide-cover.png" alt="Foto van Product"> 
+    <h3> <strong> MGS2: Official Guide </strong> </h3>
+    <h3> <strong>29,99</strong> <button class="FavorietKnop" id="js--favButton8">🤍</button> <button class="winkelwagen"><i class="fad fa-cart-arrow-down"></i></button></h3> 
+   </figure>
+   <figure class="kaart" data-game-type="Boeken">
+    <img src="images/Games/mgs3guide-cover.png" alt="Foto van Product"> 
+    <h3> <strong> MGS3: Official Guide </strong> </h3>
+    <h3> <strong>29,99</strong> <button class="FavorietKnop" id="js--favButton9">🤍</button> <button class="winkelwagen"><i class="fad fa-cart-arrow-down"></i></button></h3> 
+   </figure>
+
+
+   <h3> <strong> ㅤ</strong> </h3> 
+   <h4> <strong> Merchandise</strong> </h4> 
+   <h3> <strong> ㅤ</strong> </h3>
+
+   
+   <figure class="kaart" data-game-type="Merchandise">
+    <img src="images/Games/eend.jpg" alt="Foto van Product"> 
+    <h3> <strong> Metal Gear eend </strong> </h3>
+    <h3> <strong>4,99</strong> <button class="FavorietKnop" id="js--favButton10">🤍</button> <button class="winkelwagen"><i class="fad fa-cart-arrow-down"></i></button></h3> 
+    </figure>
+   <figure class="kaart" data-game-type="Merchandise">
+    <img src="images/Games/watch.jpg" alt="Foto van Product"> 
+    <h3> <strong> Horloge </strong> </h3>
+    <h3> <strong>499,99</strong> <button class="FavorietKnop" id="js--favButton11">🤍</button> <button class="winkelwagen"><i class="fad fa-cart-arrow-down"></i></button></h3> 
+    </figure>
+   <figure class="kaart" data-game-type="Merchandise">
+    <img src="images/Games/arm.png" alt="Foto van Product"> 
+    <h3> <strong> Prostetic arm </strong> </h3>
+    <h3> <strong>149,99</strong> <button class="FavorietKnop" id="js--favButton12">🤍</button> <button class="winkelwagen"><i class="fad fa-cart-arrow-down"></i></button></h3> 
+    </figure>
+
+</main>
+     
+
+
+      <footer>
+        <div id="footer-content">
+          <div class="footer-left">
+            <img class="logo" src="images/logo/Metalgearsitelogo.png" alt="Ongelovelijk logo">
+            <p>Dellaertweg 7F<br>2316 WZ Leiden<br>Tel: +31(0)71 5188 800.<br><br> <a onclick="myBtn('myModal','open'); return false;" class="btn go">disclaimer</a> | <a onclick="myBtn('myModal2','open');return false;" class="btn2 go2">Privacy & cookie policy</a> </p>
+    
+          </div>
+          <div class="footer-middle">
+            <p>E-mail: 1041966@student.hsleiden.nl<br>support: +31(0)71 5188 800.<br> Gerealiseerd met liefde en crack-cocaine</p>
+          </div>
+            
+          
+          <div class="footer-right">
+            <p>
+              <a href="#">Home</a>
+              <br>
+              <a href="#">Recent</a>
+              <br>
+              <a href="#">Contact</a>
+            </p>
+          </div>
+        </div>
+      </footer>
+
+
+        <script>
+            function openNav() {
+              document.getElementById("myNav").style.height = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.height = "0%";
+            }
+        </script>    
+
+</body>
+
+</html>
